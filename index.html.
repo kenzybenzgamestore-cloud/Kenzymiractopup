@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzy Shop | MLBB Diamonds</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0b0f1a; color: white; font-family: 'Inter', sans-serif; }
+        .gold-text { color: #FFD700; }
+        .card { background: #161b2c; border: 1px solid #2d364f; transition: 0.3s; }
+        .card:hover { border-color: #FFD700; transform: translateY(-5px); }
+        .btn-gold { background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728); color: black; }
+    </style>
+</head>
+<body>
+
+    <nav class="p-5 flex justify-between items-center border-b border-gray-800 bg-[#0f172a]">
+        <h1 class="text-2xl font-black gold-text">KENZY <span class="text-white font-light">MIRAC</span></h1>
+        <button class="btn-gold px-6 py-2 rounded-full font-bold text-sm shadow-lg">ORDER NOW</button>
+    </nav>
+
+    <header class="text-center py-20 px-4">
+        <h2 class="text-5xl font-extrabold mb-4">MLBB <span class="gold-text">DIAMOND</span> TOPUP</h2>
+        <p class="text-gray-400 text-lg max-w-lg mx-auto">Safe, legal, and instant delivery. Trusted by thousands of players.</p>
+    </header>
+
+    <section class="max-w-6xl mx-auto pb-20 px-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="card p-8 rounded-3xl text-center">
+                <p class="text-4xl mb-3">💎</p>
+                <h3 class="font-bold text-xl mb-1">86 Diamonds</h3>
+                <p class="gold-text font-bold text-lg">$1.50</p>
+                <button class="mt-4 w-full py-2 border border-gray-600 rounded-lg hover:bg-gray-800">Select</button>
+            </div>
+
+            <div class="card p-8 rounded-3xl text-center border-yellow-500">
+                <p class="text-4xl mb-3">💎</p>
+                <h3 class="font-bold text-xl mb-1">172 Diamonds</h3>
+                <p class="gold-text font-bold text-lg">$3.00</p>
+                <button class="mt-4 w-full btn-gold py-2 rounded-lg font-bold">Best Seller</button>
+            </div>
+
+            <div class="card p-8 rounded-3xl text-center">
+                <p class="text-4xl mb-3">💎</p>
+                <h3 class="font-bold text-xl mb-1">257 Diamonds</h3>
+                <p class="gold-text font-bold text-lg">$4.50</p>
+                <button class="mt-4 w-full py-2 border border-gray-600 rounded-lg hover:bg-gray-800">Select</button>
+            </div>
+
+            <div class="card p-8 rounded-3xl text-center">
+                <p class="text-4xl mb-3">💎</p>
+                <h3 class="font-bold text-xl mb-1">706 Diamonds</h3>
+                <p class="gold-text font-bold text-lg">$12.00</p>
+                <button class="mt-4 w-full py-2 border border-gray-600 rounded-lg hover:bg-gray-800">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-10 text-gray-600 text-sm border-t border-gray-900">
+        <p>© 2026 Kenzy Mirac Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+index.html.index.html.
